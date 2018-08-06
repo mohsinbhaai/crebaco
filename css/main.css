@@ -1,3 +1,4 @@
+
 body, div, p {
     margin: 0;
     padding: 0;
@@ -83,10 +84,10 @@ nav a.active {
 
 .slide .centered {
     width: 60%;
-    margin: 50px auto 0;
+    margin: 200px auto 0;
 }
 
-.slide .centered h3 {
+.slide .centered h1 {
     text-align: center;
 }
 
@@ -96,27 +97,32 @@ nav a.active {
     font-size: 20px;
 }
 
-.slide .centered code {
-    text-align: center;
-    /*margin-top: 20px;*/
-    font-size: 15px;
-}
-
 #slide-1 {
-    background-color: #FFFFFF;
+    background-image: url("../images/n1.jpeg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #slide-2 {
-    background-color: #45959b;
+    background-image: url("../images/n2.jpeg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #slide-3 {
-    background-color: #778899;
+    background-image: url("../images/n3.jpeg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #slide-4 {
-    color: #FFFFFF;
-    background-color: #291F37;
+    background-image: url("../images/n4.jpeg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .go-prev, .go-next {
