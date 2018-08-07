@@ -140,7 +140,7 @@ function goToSlide($slide)
         $currentSlide = $slide;
 
         //Sliding to current slide
-        TweenLite.to($slidesContainer, 1, {scrollTo: {y: pageHeight * $currentSlide.index() }, onComplete: onSlideChangeEnd, onCompleteScope: this});
+        TweenLite.to($slidesContainer, 0.1, {scrollTo: {y: pageHeight * $currentSlide.index() }, onComplete: onSlideChangeEnd, onCompleteScope: this});
 
         //Animating menu items
         TweenLite.to($navButtons.filter(".active"), 0.5, {className: "-=active"});
