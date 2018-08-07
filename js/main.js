@@ -1,4 +1,3 @@
-
 //First the variables our app is going to use need to be declared
 
 //References to DOM elements
@@ -141,7 +140,7 @@ function goToSlide($slide)
         $currentSlide = $slide;
 
         //Sliding to current slide
-        TweenLite.to($slidesContainer, 0, {scrollTo: {y: pageHeight * $currentSlide.index() }, onComplete: onSlideChangeEnd, onCompleteScope: this});
+        TweenLite.to($slidesContainer, 1, {scrollTo: {y: pageHeight * $currentSlide.index() }, onComplete: onSlideChangeEnd, onCompleteScope: this});
 
         //Animating menu items
         TweenLite.to($navButtons.filter(".active"), 0.5, {className: "-=active"});
