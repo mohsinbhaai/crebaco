@@ -1,41 +1,30 @@
-<!doctype html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
-    <link rel="stylesheet" href="test.css">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+
 </head>
 <body>
-<div class="swiper-container">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide slide1">Slide 1</div>
-        <div class="swiper-slide slide2">Slide 2</div>
-        <div class="swiper-slide slide3">Slide 3</div>
-        <div class="swiper-slide slide4">Slide 4</div>
+
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                    Collapsible Group Item #1
+                </a>
+            </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in">
+            <div class="panel-body">
+                Anim pariatur cliche reprehenderit
+            </div>
+        </div>
     </div>
-    <div class="swiper-pagination"></div>
 </div>
-<script>
-    var body = document.body;
-    body.className = 'red';
-    var slider = new Swiper ('.swiper-container', {
-        pagination: '.swiper-pagination',
-        direction: 'vertical',
-        slidesPerView: 1,
-        paginationClickable: true,
-        spaceBetween: 30,
-        mousewheelControl: true,
-        onSlideChangeStart: function (swiper) {
-            var currentSlide = swiper.slides[ swiper.activeIndex ];
-            body.className = currentSlide.getAttribute( 'data-bg' );
-            console.log( currentSlide.getAttribute( 'data-bg' ) );
-        },
-    });
-</script>
+
 </body>
 </html>

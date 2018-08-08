@@ -17,6 +17,70 @@ a:hover, a:visited, a:link, a:active {
     box-shadow: none!important;
 }
 
+/*===============================================
+      Start of Fixed button
+================================================*/
+
+#fixedButton {
+    background-color: #F30082;
+    position: fixed;
+    top: 10%;
+    margin-left: 50%;
+    border: none;
+    z-index: 300;
+    height : 74px;
+    width : 74px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 23px;
+    font-weight: bold;
+}
+
+#collapseOne {
+    width: 100%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    z-index: 200;
+    position: fixed;
+    /*top: 20%;*/
+    /*margin-left: 10%;*/
+    background-color: #F4F4F4;
+    color: black;
+    -webkit-transition-delay: 2s;
+    transition-delay: 0s;
+    text-align: center;
+
+
+}
+
+#collapseOne div {
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#collapseOne p {
+    font-weight: bold;
+}
+
+#collapseOne hr {
+    width: 50%;
+    background-color: black;
+}
+
+#fixedButton:hover ~ .bg{
+    background: #ffca6d;
+}
+
+/*===============================================
+      End of Fixed button
+================================================*/
+
+
+/*===============================================
+      Start of Navbar / Heading section
+================================================*/
+
 nav {
     position: fixed;
     top: 0;
@@ -170,3 +234,15 @@ nav a.active {
     font-weight: bold;
     text-decoration: underline;
 }
+
+.bg {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: .25s;
+    pointer-events: none;
+}
+
