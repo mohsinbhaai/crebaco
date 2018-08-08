@@ -3,10 +3,12 @@ body, div, p {
     padding: 0;
 }
 
-body {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: 300;
-    letter-spacing: 0.0625em;
+body , html{
+    height: 100%;
+    overflow: hidden;
+    /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+    /*font-weight: 300;*/
+    /*letter-spacing: 0.0625em;*/
 }
 
 a:hover, a:visited, a:link, a:active {
@@ -68,9 +70,6 @@ a:hover, a:visited, a:link, a:active {
     background-color: black;
 }
 
-#fixedButton:hover ~ .bg{
-    background: #ffca6d;
-}
 
 /*===============================================
       End of Fixed button
@@ -235,14 +234,23 @@ nav a.active {
     text-decoration: underline;
 }
 
-.bg {
-    position: fixed;
+/*.bg {*/
+    /*position: fixed;*/
+    /*z-index: -1;*/
+    /*top: 0;*/
+    /*right: 0;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*transition: .25s;*/
+    /*pointer-events: none;*/
+/*}*/
+
+.btn-h:hover ~ .slides-container{
+    background: #ffca6d;
     z-index: -1;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transition: .25s;
-    pointer-events: none;
 }
 
+canvas{
+    background-color: #fff;
+    height: 100%;
+}

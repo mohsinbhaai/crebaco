@@ -21,11 +21,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.6/plugins/CSSPlugin.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.6/plugins/ScrollToPlugin.min.js"></script>
 
+
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+
 </head>
 <body>
 
-<div>
-    <a for="collapseOne" id="fixedButton" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> H </a>
+<div class="btn-h">
+    <button type="button" for="collapseOne" id="fixedButton" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> H </button>
 </div>
 
 <div class="collapse" id="collapseOne">
@@ -60,17 +64,13 @@
     </div>
 </div>
 
-<!--<nav>-->
-<!--<ul>-->
-<!--<li><a href="#slide-1">Slide 1</a></li>-->
-<!--<li><a href="#slide-2">Slide 2</a></li>-->
-<!--<li><a href="#slide-3">Slide 3</a></li>-->
-<!--<li><a href="#slide-4">Slide 4</a></li>-->
-<!--</ul>-->
-<!--</nav>-->
-
-
 <div class="slides-container">
+
+    <canvas id="nokey">
+        Your Browser Don't Support Canvas, Please Download Chrome ^_^``
+    </canvas>
+
+
     <div class="slide" id="slide-1">
         <div class="div-1">
             <p>01.<hr> Awards.</p>
@@ -139,10 +139,8 @@
                 Creativity.</a>
         </div>
     </div>
-    <div class="bg"></div>
+
 </div>
-
-
 
 <script src="js/main.js"></script>
 </body>
