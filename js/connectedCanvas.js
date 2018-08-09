@@ -1,6 +1,6 @@
-var canvasDots = function(colorOfNetwork = '#000', backgroundColor = '#fff', textColor = '#000') {
+var canvasDots = function(colorOfNetwork = '#fff', backgroundColor = '#000', textColor = '#fff') {
 
-    let body = document.querySelector('.dots-div');
+    let body = document.querySelector('body');
     body.style.color = textColor;
 
     // If the element canvas#canvas does not already exist
@@ -16,7 +16,7 @@ var canvasDots = function(colorOfNetwork = '#000', backgroundColor = '#fff', tex
         canvas.style.background = backgroundColor;
 
         // Add the canvas element to the DOM
-        document.querySelector('.dots-div').appendChild(canvas);
+        document.querySelector('body').appendChild(canvas);
 
         var colorDot = color = colorOfNetwork;
 
