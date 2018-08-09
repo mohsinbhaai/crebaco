@@ -1,6 +1,7 @@
 body, div, p {
     margin: 0;
     padding: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /*body , html{*/
@@ -24,8 +25,8 @@ a:hover, a:visited, a:link, a:active {
     left     : 50%;
     top      : 50%;
 
-    margin-left : -61px; /* half of the width  */
-    margin-top  : -5px; /* half of the height */
+    margin-left : -32px; /* half of the width  */
+    margin-top  : -32px; /* half of the height */
 }
 
 #fixedButton {
@@ -218,23 +219,24 @@ nav a.active {
 ===========================================*/
 
 #slide-1 {
-    background-image: url(../images/f3.jpg);
+    /*background-image: url(../images/home-pic1.png);*/
+    background-repeat: no-repeat;
     /*background-size: 100%;*/
 }
 
 #slide-2 {
-    background-image: url(../images/h1.jpg);
+    /*background-image: url(../images/);*/
     /*background-size: 100%;*/
 }
 
 #slide-3 {
-    background-image: url(../images/f2.jpg);
+    /*background-image: url(../images/f2.jpg);*/
     /*background-size: 100%;*/
 
 }
 
 #slide-4 {
-    background-image: url(../images/f1.jpg);
+    /*background-image: url(../images/f1.jpg);*/
     /*background-size: 100%;*/
 }
 
