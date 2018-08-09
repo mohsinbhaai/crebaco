@@ -193,3 +193,4 @@ $(document).ready(function() {
         $(this).toggleClass("new-p");
     });
 });
+
