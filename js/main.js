@@ -187,3 +187,9 @@ function onResize(event)
     }
 
 }
+
+$(document).ready(function() {
+    $(".logo-area").click(function() {
+        $(this).toggleClass("new-p");
+    });
+});

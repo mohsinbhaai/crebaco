@@ -27,15 +27,18 @@ a:hover, a:visited, a:link, a:active {
     /*background-color: #F4F4F4;*/
     position: fixed;
     top: 10%;
-    margin-left: 50%;
+    margin-left: 45%;
     border: none;
     z-index: 300;
-    height : 100px;
-    width : 130px;
     text-align: center;
     cursor: pointer;
     padding: 2px;
     font-weight: bold;
+}
+
+.logo-area input {
+    width: 74px;
+    height: 74px;
 }
 
 #collapseOne {
@@ -68,6 +71,9 @@ a:hover, a:visited, a:link, a:active {
     background-color: black;
 }
 
+.new-p {
+    color: black;
+}
 
 /*===============================================
       End of Fixed button
@@ -230,3 +236,8 @@ nav a.active {
     font-weight: bold;
     text-decoration: underline;
 }
+
+/*===============================================
+            Jquery Styles
+================================================*/
+

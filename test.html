@@ -1,108 +1,17 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>wall.js Example</title>
-    <link rel="icon" type="image/x-icon" href="./favicon.png">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css' />
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/darcula.min.css' />
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js'></script>
-
-    <link rel="stylesheet" href="./index.css">
-</head>
-<body>
-<ul class="nav" data-wall-section-nav>
-    <li class="nav-link">First-Intro</li>
-    <li class="nav-link">Second-Navs</li>
-    <li class="nav-link">Third-Slides</li>
-    <li class="nav-link">Forth-Duration</li>
-    <li class="nav-link">Fifth-Class</li>
-    <li class="nav-link">Sixth-Configs</li>
-</ul>
-<div id="wall">
-    <section class="section section-1">
-        <div class="wrapper">
-            <h1>wall.js Demo</h1>
-            <div class="sub-header">
-                <h5>Fullpage Piling, vanilla javascript, no dependency</h5>
-            </div>
-            <div class="css-script-ads" style="margin-top:30px" align="center">
-                <script type="text/javascript"><!--
-                google_ad_client = "ca-pub-2783044520727903";
-                /* CSSScript Demo Page */
-                google_ad_slot = "3025259193";
-                google_ad_width = 728;
-                google_ad_height = 90;
-                //-->
-                </script>
-                <script type="text/javascript" src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
-                </script></div>
-        </div>
-    </section>
-    <section class="section section-2">
-        <div class="wrapper">
-            <h1>Section Two</h1>
-            <div class="sub-header">
-                <h5>This is section two</h5>
-            </div>
-        </div>
-    </section>
-    <section class="section section-3">
-        <div class="slide" style="background-color: #0277bd" data-wall-slide>
-            <div class="wrapper">
-                <h1>Section Three</h1>
-            </div>
-        </div>
-        <div class="slide" style="background-color: #ffa000" data-wall-slide>
-            <div class="wrapper">
-                <h1>Section three</h1>
-            </div>
-        </div>
-        <div data-wall-slide-arrow class="prev-slide"></div>
-        <div data-wall-slide-arrow class="next-slide"></div>
-    </section>
-    <section class="section section-4" data-wall-animate-duration=3>
-        <div class="wrapper">
-            <h1>Section Four</h1>
-        </div>
-    </section>
-    <section class="section section-5">
-        <div class="wrapper">
-            <h1>Section Five</h1>
-        </div>
-    </section>
-    <section class="section section-6">
-        <div class="wrapper">
-            <h1>Section Six</h1>
-        </div>
-    </section>
+<div class="logo-area" id="">
+    <input type="image" src="images/creabaco-log2.png" data-toggle="collapse"
+           href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+    <p>crebaco</p>
 </div>
-<div id="prev" class="btn btn-secondary">prev</div>
-<div id="next" class="btn btn-primary">next</div>
-<ul class="dot" data-wall-section-nav>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-</ul>
-<script src="wall.js"></script>
-<script>
-    (function () {
 
-        var wall = new Wall('#wall');
-        console.log(wall);
 
-        document.getElementById('prev').addEventListener('click', function () { wall.prevSection(); });
-        document.getElementById('next').addEventListener('click', function () { wall.nextSection(); });
-        document.querySelector('.prev-slide').addEventListener('click', function () { wall.prevSlide(); });
-        document.querySelector('.next-slide').addEventListener('click', function () { wall.nextSlide(); });
-    }());
-</script>
-</body>
-</html>
+
+.logo-area {
+position: fixed;
+margin-left: 45%;
+}
+
+.logo-area input {
+width: 74px;
+height: 74px;
+}
