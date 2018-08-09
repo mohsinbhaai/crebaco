@@ -24,17 +24,17 @@ a:hover, a:visited, a:link, a:active {
 ================================================*/
 
 #fixedButton {
-    background-color: white;
+    background-color: #F4F4F4;
     position: fixed;
     top: 10%;
     margin-left: 50%;
     border: none;
     z-index: 300;
-    height : 74px;
-    width : 74px;
+    height : 100px;
+    width : 100px;
     text-align: center;
     cursor: pointer;
-    padding-top: 8px;
+    padding: 2px;
     font-weight: bold;
 }
 
