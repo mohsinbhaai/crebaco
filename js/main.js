@@ -8,7 +8,7 @@ var $navButtons = $("nav a").filter("[href^=#]");
 var $navGoPrev = $(".go-prev");
 var $navGoNext = $(".go-next");
 var $slidesContainer = $(".slides-container");
-var $slides = $(".slide");
+var $slides = $(".canvas-sec");
 var $currentSlide = $slides.first();
 
 //Animating flag - is our app animating
@@ -30,6 +30,10 @@ goToSlide($currentSlide);
 /*
 *   Adding event listeners
 * */
+
+$(document).on("scrollstart",function(){
+    alert("Started scrolling!");
+});
 
 $window.on("resize", onResize).resize();
 $window.on("mousewheel DOMMouseScroll", onMouseWheel);

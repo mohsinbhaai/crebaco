@@ -164,13 +164,9 @@ nav a.active {
 }
 
 /*===============================================
-               Start of Slide 1
+               Start of Slide Style
 ================================================*/
 
-.slide {
-    background-image: url(../images/f3.jpg);
-    color: white;
-}
 
 .slide h2 a {
     color: white;
@@ -204,28 +200,31 @@ nav a.active {
     margin-left: 13%;
 }
 
-/*===============================================
-               End of Slide 1
-================================================*/
+/*========================================
 
-/*===============================================
-               Start of Slide 1
-================================================*/
+            end of slide style
+
+===========================================*/
+
+#slide-1 {
+    background-image: url(../images/f3.jpg);
+    /*background-size: 100%;*/
+}
 
 #slide-2 {
-    background-color: #45959b;
     background-image: url(../images/h1.jpg);
+    /*background-size: 100%;*/
 }
 
 #slide-3 {
-    background-color: #778899;
     background-image: url(../images/f2.jpg);
+    /*background-size: 100%;*/
+
 }
 
 #slide-4 {
-    color: #FFFFFF;
-    background-color: #291F37;
     background-image: url(../images/f1.jpg);
+    /*background-size: 100%;*/
 }
 
 .go-prev, .go-next {
