@@ -219,24 +219,37 @@ nav a.active {
 ===========================================*/
 
 #slide-1 {
-    /*background-image: url(../images/home-pic1.png);*/
+    background-image: url(../images/pngpic1.png);
     background-repeat: no-repeat;
-    /*background-size: 100%;*/
+    background-size:  100% 100%;
+    color: black;
+}
+
+#slide-1 .div-2 a{
+    color: black;
+}
+
+#slide-1 hr {
+    background-color: black;
 }
 
 #slide-2 {
-    /*background-image: url(../images/);*/
-    /*background-size: 100%;*/
+    background-image: url(../images/pic2.jpg);
+    background-repeat: no-repeat;
+    background-size:  100% 100%;
 }
 
 #slide-3 {
-    /*background-image: url(../images/f2.jpg);*/
-    /*background-size: 100%;*/
+    background-image: url(../images/pic3.jpg);
+    background-repeat: no-repeat;
+    background-size:  100% 100%;
 
 }
 
 #slide-4 {
-    /*background-image: url(../images/f1.jpg);*/
+    background-image: url(../images/pic4.jpg);
+    background-repeat: no-repeat;
+    background-size:  100% 100%;
     /*background-size: 100%;*/
 }
 
