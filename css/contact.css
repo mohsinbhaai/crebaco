@@ -1,5 +1,5 @@
 .contact-first-sec {
-    background: url(../images/friendspic.jpg) no-repeat center center fixed;;
+    background: url(../images/friendspic.jpg) no-repeat center center;;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -13,4 +13,57 @@
     margin-left: 12%;
     font-size: 5vw;
     font-weight: 700;
+}
+
+/*===================================
+          Find Us Section
+=====================================*/
+
+.find-us-sec .div-1 {
+    padding-top: 10%;
+}
+
+.find-us-sec .div-2 {
+    padding: 10% 10% 10% 10%;
+}
+
+.find-us-sec {
+    background-color: black;
+    color: white;
+}
+
+.find-us-sec .div-1 h2 {
+    padding-left: 20%;
+}
+
+.find-us-sec hr {
+    color: black;
+    width: 50%;
+    border: 1px solid white;
+}
+
+.find-us-sec .div-2 h2 {
+    font-weight: 400;
+    /*line-height: 70px;*/
+    font-size: 5vw;
+    /*padding: 0 10%;*/
+}
+
+.find-us-sec .div-2 p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    margin-bottom: 0;
+}
+
+.find-us-sec .div-2 .custom-div-contact {
+    margin-top: 30%;
+}
+
+.find-us-sec .custom-div-contact h3 {
+    padding-bottom: 10%;
+}
+
+.common-div {
+    border: 1px solid red;
 }
