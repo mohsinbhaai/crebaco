@@ -1,0 +1,16 @@
+.contact-first-sec {
+    background: url(../images/friendspic.jpg) no-repeat center center fixed;;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.contact-first-sec #changeText {
+    color: white;
+    padding-top: 22%;
+    padding-bottom: 20%;
+    margin-left: 12%;
+    font-size: 5vw;
+    font-weight: 700;
+}
