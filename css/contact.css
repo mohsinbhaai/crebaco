@@ -64,6 +64,14 @@
     padding-bottom: 10%;
 }
 
-.common-div {
+.indian-time {
     border: 1px solid red;
+}
+
+.singapore-time {
+    border: 2px solid green;
+}
+
+.time-zone-div {
+    padding-bottom: 15%;
 }
