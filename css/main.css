@@ -231,7 +231,7 @@ nav a.active {
 ===========================================*/
 
 #slide-1 {
-    background: url(../images/image1.jpg) no-repeat;
+    background: url(../images/rsz_3image1.jpg) no-repeat;
     background-size: cover;
     color: black;
 }
@@ -245,17 +245,17 @@ nav a.active {
 }
 
 #slide-2 {
-    background: url(../images/image2.jpg) no-repeat;
+    background: url(../images/rsz_image2.jpg) no-repeat;
     background-size:  cover;
 }
 
 #slide-3 {
-    background: url(../images/pic3.jpg) no-repeat;
+    background: url(../images/rsz_pic3.jpg) no-repeat;
     background-size:  cover;
 }
 
 #slide-4 {
-    background: url(../images/image4.jpg) no-repeat;
+    background: url(../images/rsz_image4.jpg) no-repeat;
     background-size:  cover;
 }
 
