@@ -24,7 +24,7 @@
 
 <div class="collapse" id="collapseOne">
     <div>
-        <a href="">
+        <a href="index.html">
             <p>Hello.</p>
             <span>Overview.</span>
             <hr>
@@ -175,7 +175,7 @@
             </div>
             <div class="col-md-5 ">
                 <a href="index.html">Hello</a>
-                <a href="service,html">Work</a>
+                <a href="service.html">Work</a>
                 <a href="about.html">About</a>
                 <a href="career.html">Careers</a>
                 <a href="contact.html">Contact</a>
@@ -189,7 +189,15 @@
         </div>
     </div>
 </section>
-
+<script>
+    $(document).ready(function() {
+        $(".logo-area").click(function() {
+            $(this).toggleClass("new-p");
+        });
+    });
+</script>
+<!--<script src="js/main.js"></script>-->
 <script src="js/contact.js"></script>
+
 </body>
 </html>
