@@ -27,17 +27,13 @@ function indianTimeZone() {
 
         var indiaTime = document.querySelector(".indian-time-zone");
         var indianTime = document.querySelector(".indian-time");
-    if (hr < 10) {
-        indiaTime.innerText = "Have a good morning";
+    if (hr > 5 && 19 > hr) {
+        indiaTime.innerText = "Have a good DAY!";
         indiaTime.style.color="blue";
         indianTime.style.backgroundColor="grey";
-    } else if (hr < 19) {
-        indiaTime.innerText ="Have a good day!";
+    } else  {
+        indiaTime.innerText ="Have a good NIGHT!";
         indiaTime.style.color="red";
-        indianTime.style.backgroundColor="grey";
-    } else {
-        indiaTime.innerText = "Have a good night!";
-        indiaTime.style.color="yellow";
         indianTime.style.backgroundColor="grey";
     }
 }
@@ -59,16 +55,12 @@ function singaporeTimeZone() {
 
     var hello = document.querySelector(".singapore-time-zone");
     var singaporeTime = document.querySelector(".singapore-time");
-    if (hr < 10) {
+    if (hr > 5 && 19 > hr) {
         hello.innerText = "Have a good morning";
         hello.style.color="blue";
-    } else if (hr < 19) {
+    } else {
         hello.innerText ="Have a good day!";
         hello.style.color="red";
-    } else {
-        hello.innerText = "Have a good night!";
-        hello.style.color="yellow";
-        singaporeTime.style.backgroundColor="grey";
     }
 }
 
@@ -89,14 +81,10 @@ function usTimeZone() {
 
     var hello = document.querySelector(".american-time-zone");
     var americanTime = document.querySelector(".american-time");
-    if (hr < 10) {
+    if (hr > 5 && 19 > hr) {
         hello.innerText = "Have a good morning";
         hello.style.color="blue";
         americanTime.style.backgroundColor="red";
-    } else if (hr < 19) {
-        hello.innerText ="Have a good day!";
-        hello.style.color="red";
-        americanTime.style.backgroundColor="grey";
     } else {
         hello.innerText = "Have a good night!";
         hello.style.color="yellow";
@@ -121,18 +109,14 @@ function africaTimeZone() {
 
     var africanTimeZone = document.querySelector(".african-time-zone");
     var africanTime = document.querySelector(".african-time");
-    if (hr < 10) {
+    if (hr > 5 && 19 > hr) {
         africanTimeZone.innerText = "Have a good morning";
-        africanTimeZone.style.color="blue";
-        africanTime.style.backgroundColor="green";
-    } else if (hr < 19) {
-        africanTimeZone.innerText ="Have a good day!";
-        africanTimeZone.style.color="red";
-        africanTime.style.backgroundColor="green";
+        africanTimeZone.style.color="color";
+        africanTime.style.backgroundColor="white";
     } else {
         africanTimeZone.innerText = "Have a good night!";
         africanTimeZone.style.color="yellow";
-        africanTime.style.backgroundColor="grey";
+        africanTime.style.backgroundColor="#1C1C1C";
     }
 }
 
