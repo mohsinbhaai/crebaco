@@ -3,15 +3,14 @@ $('#fullpage').fullpage({
     sectionSelector: '.vertical-scrolling',
     controlArrows: false,
 
-
     afterSlideLoad: function( slideIndex) {
-        if(slideIndex == 1) {
+        if(slideIndex == 0) {
             $.fn.fullpage.setAllowScrolling(false, 'up');
         }
     },
 
     onSlideLeave: function(slideIndex) {
-        if(slideIndex == 1) {
+        if(slideIndex == 0) {
             $.fn.fullpage.setAllowScrolling(true, 'up');
         }
     }

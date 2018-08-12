@@ -33,11 +33,6 @@ a:hover, a:visited, a:link, a:active {
     margin-top  : -32px; /* half of the height */
 }
 
-/*.logo-area:hover .slides-container{*/
-    /*z-index: 200;*/
-    /*box-shadow: inset 0 0 0 25px #53a7ea;*/
-/*}*/
-
 
 #fixedButton {
     /*background-color: #F4F4F4;*/
@@ -100,101 +95,9 @@ a:hover, a:visited, a:link, a:active {
 
 
 /*===============================================
-      End of Fixed button
+            Section scroll
 ================================================*/
 
-
-/*===============================================
-      Start of Navbar / Heading section
-================================================*/
-
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 100;
-}
-
-nav ul {
-    list-style: none;
-    text-align: center;
-    margin-top: 30px;
-}
-
-nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-nav ul li:last-child {
-    margin-right: 0;
-}
-
-#back-to-tutorial {
-    margin-left: 100px;
-}
-
-nav a {
-    position: relative;
-    top: 0;
-    padding: 10px 20px;
-    font-weight: normal;
-    font-size: 20px;
-    text-align: center;
-    border-radius: 4px;
-    background-color: #FFFFFF;
-    color: #83C78E;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-
-nav a.active {
-    top: -4px;
-    background-color: #69C773;
-    color: #FFFFFF;
-    -webkit-box-shadow: 0 4px 0 0 #51a65f;
-    -moz-box-shadow: 0 4px 0 0 #51a65f;
-    box-shadow: 0 4px 0 0 #51a65f;
-}
-
-.slides-container {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    z-index: 10;
-}
-
-.slide {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    top: -6px;
-}
-
-.slide .centered {
-    width: 60%;
-    margin: 200px auto 0;
-}
-
-.slide .centered h1 {
-    text-align: center;
-}
-
-.slide .centered p {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 20px;
-}
-
-/*===============================================
-               Start of Slide Style
-================================================*/
 
 
 .slide h2 a {
@@ -235,41 +138,6 @@ nav a.active {
 
 ===========================================*/
 
-#slide-1 {
-    background: url(../images/rsz_pic3.jpg) no-repeat;
-    background-size: cover;
-    color: black;
-}
-
-#slide-1 .div-2 a{
-    color: black;
-}
-
-#slide-1 hr {
-    background-color: black;
-}
-
-#slide-2 {
-    background: url(../images/rsz_image2.jpg) no-repeat;
-    background-size:  cover;
-}
-
-#slide-3 {
-    background: url(../images/rsz_pic3.jpg) no-repeat;
-    background-size:  cover;
-}
-
-#slide-4 {
-    background: url(../images/rsz_image4.jpg) no-repeat;
-    background-size:  cover;
-}
-
-.go-prev, .go-next {
-    cursor: pointer;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
 /*===============================================
            Footer Section
 ================================================*/
@@ -306,3 +174,8 @@ nav a.active {
     display: inline-block;
     margin-right: 3%;
 }
+
+/*#fullpage {*/
+    /*position: absolute;*/
+    /*z-index: -1;*/
+/*}*/
