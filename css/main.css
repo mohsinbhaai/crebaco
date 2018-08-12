@@ -4,6 +4,11 @@ body, div, p {
     font-family: 'Ubuntu', sans-serif;
 }
 
+html, body {
+    /*position: relative;*/
+    height: 100%;
+}
+
 a:hover, a:visited, a:link, a:active {
 
     text-decoration: none!important;
@@ -231,7 +236,7 @@ nav a.active {
 ===========================================*/
 
 #slide-1 {
-    background: url(../images/rsz_3image1.jpg) no-repeat;
+    background: url(../images/rsz_pic3.jpg) no-repeat;
     background-size: cover;
     color: black;
 }

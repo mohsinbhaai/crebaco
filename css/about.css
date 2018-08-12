@@ -3,7 +3,7 @@
 ======================================*/
 
 .about-first-div {
-    background: url(../images/maxresdefault.jpg)no-repeat center center fixed;
+    background: url(../images/friendspic.jpg)no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -40,7 +40,6 @@
 
 .about-class .div-2 h2 {
     font-weight: 400;
-    /*line-height: 70px;*/
     font-size: 5vw;
     padding: 0 10%;
 }
@@ -72,7 +71,7 @@
 .how-we-do .div-1 hr {
     border: 1px solid white;
     width: 15%;
-    margin-left: 0%;
+    margin-left: 0;
     margin-top: 15%;
 }
 

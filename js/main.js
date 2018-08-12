@@ -66,6 +66,8 @@ function onNavButtonClick(event)
     }
 }
 
+var
+
 /*
 *   Getting the pressed key. Only if it's up or down arrow, we go to prev or next slide and prevent default behaviour
 *   This way, if there's text input, the user is still able to fill it
