@@ -101,12 +101,15 @@ canvas {
     bottom: 0; }
 
 
-
 /*===============================================
             Section scroll
 ================================================*/
 
-
+.scrolling-div {
+    position: absolute;
+    margin-left: 3%;
+    padding-top: 5%;
+}
 
 .slide h2 a {
     color: white;
