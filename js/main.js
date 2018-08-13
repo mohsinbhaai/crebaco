@@ -4,13 +4,13 @@ $('#fullpage').fullpage({
     controlArrows: false,
 
     afterSlideLoad: function( slideIndex) {
-        if(slideIndex == 0) {
+        if(slideIndex == 1) {
             $.fn.fullpage.setAllowScrolling(false, 'up');
         }
     },
 
     onSlideLeave: function(slideIndex) {
-        if(slideIndex == 0) {
+        if(slideIndex == 1) {
             $.fn.fullpage.setAllowScrolling(true, 'up');
         }
     }
