@@ -144,8 +144,8 @@ var canvasDots = function() {
     ctx.strokeStyle = color;
 
     var mousePosition = {
-        x: 40 * canvas.width / 100,
-        y: 40 * canvas.height / 100
+        x: 30 * canvas.width / 100,
+        y: 30 * canvas.height / 100
     };
 
     var dots = {
@@ -231,7 +231,7 @@ var canvasDots = function() {
     mousePosition.x = window.innerWidth / 2;
     mousePosition.y = window.innerHeight / 2;
 
-    setInterval(createDots, 1000/20);
+    setInterval(createDots, 1000/30);
 };
 
 window.onload = function() {
