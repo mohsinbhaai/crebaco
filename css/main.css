@@ -54,24 +54,22 @@ a:hover, a:visited, a:link, a:active {
 .logo-area p {
     text-transform: uppercase;
     font-size: 13px;
+
 }
 
 #collapseOne {
     width: 100%;
-    padding-top: 15%;
-    padding-bottom: 5%;
     z-index: 200;
     position: fixed;
     background-color: #F4F4F4;
     color: black;
-    -webkit-transition-delay: 2s;
-    transition-delay: 0s;
     text-align: center;
 }
 
 #collapseOne div {
     display: inline-block;
     margin: 3%;
+    padding: 8% 0;
 }
 
 #collapseOne p {
